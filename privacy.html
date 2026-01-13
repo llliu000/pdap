@@ -1,54 +1,207 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <title>蜜夜播放器 - 隐私协议</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <style>
-    body { font-family: -apple-system, sans-serif; padding: 20px; line-height: 1.7; max-width: 800px; margin: auto; }
-    h1, h2 { color: #333; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>隐私政策</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: "微软雅黑", "Microsoft YaHei", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #222;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .intro {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        h2 {
+            font-size: 18px;
+            color: #2f80ed;
+            margin: 30px 0 15px;
+            padding-left: 12px;
+            border-left: 4px solid #2f80ed;
+        }
+        h3 {
+            font-size: 16px;
+            color: #333;
+            margin: 20px 0 10px;
+        }
+        ol, ul {
+            padding-left: 25px;
+            margin: 10px 0;
+        }
+        li {
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .sdk-item {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #fafafa;
+            border-radius: 6px;
+            border-left: 3px solid #2f80ed;
+        }
+        .sdk-title {
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        .sdk-desc {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+        .sdk-link {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 13px;
+            color: #2f80ed;
+            text-decoration: none;
+        }
+        .sdk-link:hover {
+            text-decoration: underline;
+        }
+        .note {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+        }
+        .footer {
+            text-align: right;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>隐私政策</h1>
+        
+        <p class="intro">
+            本隐私政策适用于由<strong>个人开发者 刘国权</strong>（以下简称“我们”）开发并运营的本应用。<br>
+            我们非常重视用户的个人信息与隐私保护，并严格遵守相关法律法规及 Apple App Store 的隐私要求。<br>
+            在您使用本应用前，请您务必仔细阅读并充分理解本隐私政策。当您开始使用本应用，即表示您已同意本政策的全部内容。
+        </p>
 
-<h1>蜜夜播放器 iOS 版 隐私协议</h1>
-<p><strong>更新日期：2024年6月1日</strong></p>
 
-<h2>引言</h2>
-<p>蜜夜播放器尊重并保护所有用户的个人隐私信息。本隐私协议旨在说明我们如何收集、使用、存储和保护您的个人信息。</p>
+        <h2>一、我们收集的信息类型</h2>
+        <p>在您使用本应用的过程中，我们可能会根据功能需要收集以下信息：</p>
+        <ul>
+            <li><strong>设备信息</strong>：设备型号、操作系统版本、系统语言、应用版本号、IP 地址，用于基础功能实现与安全保障。</li>
+            <li><strong>使用行为信息</strong>：页面访问记录、功能使用情况、点击行为，用于产品功能优化和体验改进。</li>
+            <li><strong>订阅与购买信息</strong>：订阅状态、订阅类型、有效期等（由 Apple 返回的结果信息）。我们不会获取您的 Apple ID、支付账号或银行卡信息。</li>
+            <li><strong>广告相关信息</strong>：广告展示、点击、转化等统计数据，用于广告投放和效果分析。</li>
+        </ul>
+        <p>我们仅在实现应用核心功能及合法目的所必需的范围内收集上述信息，并遵循<strong>最小必要原则</strong>。</p>
 
-<h2>一、我们收集的信息</h2>
-<ul>
-  <li>设备信息（如设备型号、系统版本、唯一设备标识符）</li>
-  <li>App 使用数据（如播放记录、功能点击行为）</li>
-  <li>崩溃日志（用于改进性能与稳定性）</li>
-  <li>若您使用第三方登录或评论功能，我们可能收集昵称、头像等信息</li>
-</ul>
 
-<h2>二、信息用途</h2>
-<p>我们收集的信息仅用于以下目的：</p>
-<ul>
-  <li>提供、维护和改进蜜夜播放器的服务</li>
-  <li>分析用户行为以优化产品体验</li>
-  <li>向您推送重要通知（可在设置中关闭）</li>
-</ul>
+        <h2>二、系统权限的使用说明</h2>
+        <p>本应用不会在后台或未经您同意的情况下擅自获取任何系统权限。仅在您主动使用相关功能时，才会向您申请必要权限：</p>
+        <ul>
+            <li>网络权限：用于访问网络内容、加载服务和广告</li>
+            <li>通知权限（可选）：用于订阅状态提醒或服务通知</li>
+        </ul>
+        <p>您可以随时通过系统设置关闭相关权限。关闭权限不会影响应用的基础使用功能。</p>
 
-<h2>三、数据存储与保护</h2>
-<p>我们使用符合行业标准的安全措施保护您的数据，避免未经授权的访问、修改或泄露。数据主要存储在匿名化或加密形式。</p>
 
-<h2>四、第三方服务</h2>
-<p>我们可能使用以下第三方 SDK：</p>
-<ul>
-  <li>Apple IDFA（用于广告归因，遵循 Apple 隐私规范）</li>
-  <li>Firebase Analytics（统计分析）</li>
-</ul>
-<p>详见各 SDK 官方的隐私政策。</p>
+        <h2>三、第三方 SDK 的使用说明</h2>
+        <p>为实现广告展示及统计分析功能，本应用集成了以下第三方广告 SDK，具体信息如下：</p>
 
-<h2>五、您的权利</h2>
-<p>您有权查看、更正或删除您的个人信息。请联系：<a href="mailto:privacy@miyeapp.com">privacy@miyeapp.com</a></p>
+        <div class="sdk-item">
+            <div class="sdk-title">1. 穿山甲聚合 SDK / 穿山甲联盟 SDK / 穿山甲广告 SDK</div>
+            <div class="sdk-desc">开发主体：北京巨量引擎网络技术有限公司</div>
+            <div class="sdk-desc">服务类型：广告展示、投放及效果分析服务</div>
+            <div class="sdk-desc">收集信息类型：设备标识符（如 IDFA、IMEI、OAID 等）、设备信息（设备型号、操作系统版本、应用版本号）、广告交互数据（展示、点击、转化记录）、网络状态信息（IP 地址、网络类型）</div>
+            <div class="sdk-desc">使用目的：用于广告精准投放、频次控制、效果统计及广告主结算依据</div>
+            <a href="https://ad.oceanengine.com/union/media/union" class="sdk-link" target="_blank">官方隐私政策</a>
+        </div>
 
-<h2>六、联系我们</h2>
-<p>如您对本协议有任何疑问，请与我们联系：<a href="mailto:privacy@miyeapp.com">privacy@miyeapp.com</a></p>
+        <div class="sdk-item">
+            <div class="sdk-title">2. 优量汇 SDK（腾讯广告 SDK）</div>
+            <div class="sdk-desc">开发主体：深圳市腾讯计算机系统有限公司</div>
+            <div class="sdk-desc">服务类型：广告展示与效果优化服务</div>
+            <div class="sdk-desc">收集信息类型：设备标识符（如 IDFA、OAID、GUID 等）、网络设备硬件地址（MAC 地址）、运营商信息（运营商名称、网络制式）、网络状态信息（IP 地址、网络连接状态）</div>
+            <div class="sdk-desc">使用目的：用于广告资源匹配、用户兴趣分析及广告转化效果追踪</div>
+            <a href="https://e.qq.com/dev/index.html" class="sdk-link" target="_blank">官方隐私政策</a>
+        </div>
 
+        <div class="sdk-item">
+            <div class="sdk-title">3. 百度移动广告 SDK</div>
+            <div class="sdk-desc">开发主体：北京百度网讯科技有限公司</div>
+            <div class="sdk-desc">服务类型：移动广告投放与数据统计服务</div>
+            <div class="sdk-desc">收集信息类型：设备标识符（如 IDFA、IMEI、Android ID 等）、设备信息（设备品牌、型号、屏幕分辨率）、广告交互数据（广告展示次数、点击位置、转化路径）、网络状态信息（IP 地址、网络延迟）</div>
+            <div class="sdk-desc">使用目的：用于广告定向投放、用户行为分析及广告收益统计</div>
+            <a href="https://www.baidu.com/duty/yinsiquan.html" class="sdk-link" target="_blank">官方隐私政策</a>
+        </div>
+
+        <div class="sdk-item">
+            <div class="sdk-title">4. 快手联盟 SDK</div>
+            <div class="sdk-desc">开发主体：北京快手科技有限公司</div>
+            <div class="sdk-desc">服务类型：广告联盟分发与效果监测服务</div>
+            <div class="sdk-desc">收集信息类型：设备标识符（如 IDFA、OAID、UUID 等）、网络设备硬件地址（MAC 地址）、运营商信息（运营商编码、SIM 卡状态）、网络状态信息（IP 地址、网络质量）</div>
+            <div class="sdk-desc">使用目的：用于广告资源整合、跨平台投放及广告效果归因分析</div>
+            <a href="https://www.kuaishou.com/about/privacy" class="sdk-link" target="_blank">官方隐私政策</a>
+        </div>
+
+        <div class="note">
+            注：上述第三方 SDK 对个人信息的处理行为遵循其自身隐私政策，我们已尽合理商业努力对其合法性、必要性及安全性进行评估，确保其符合国家法律法规及 Apple App Store 隐私要求。您可通过系统设置限制部分 SDK 的数据采集权限（如关闭广告标识符 IDFA）。
+        </div>
+
+
+        <h2>四、信息的存储与保护</h2>
+        <p>我们不会主动保存用户的敏感个人信息。所有数据仅在实现处理目的所需的最短期限内保存，并采取合理的技术和管理措施防止数据泄露、篡改或丢失。</p>
+
+
+        <h2>五、信息的共享、转让与披露</h2>
+        <p>我们不会向任何无关第三方出售、出租或非法共享您的个人信息，除非存在以下情形：</p>
+        <ul>
+            <li>已获得您的明确同意或授权</li>
+            <li>为实现应用功能所必需（如广告展示）</li>
+            <li>依据法律法规或司法、行政机关的要求</li>
+        </ul>
+
+
+        <h2>六、未成年人保护</h2>
+        <p>本应用不面向未满 18 周岁的未成年人提供专门服务。若您未满 18 周岁，请在监护人陪同下使用本应用。</p>
+
+
+        <h2>七、隐私政策的更新</h2>
+        <p>我们可能会根据法律法规或业务需要对本政策进行更新。更新后的内容将在应用内或页面中提示。</p>
+
+
+        <h2>八、联系我们</h2>
+        <p>如您对本隐私政策有任何疑问、意见或建议，可通过应用内反馈方式与我们联系。</p>
+
+
+        <div class="footer">开发者：刘国权</div>
+    </div>
 </body>
 </html>
