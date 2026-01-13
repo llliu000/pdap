@@ -1,1 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>蜜夜播放器技术支持说明</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: "微软雅黑", "Microsoft YaHei", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #222;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .intro {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        h2 {
+            font-size: 18px;
+            color: #2f80ed;
+            margin: 30px 0 15px;
+            padding-left: 12px;
+            border-left: 4px solid #2f80ed;
+        }
+        h3 {
+            font-size: 16px;
+            color: #333;
+            margin: 20px 0 10px;
+        }
+        ol, ul {
+            padding-left: 25px;
+            margin: 10px 0;
+        }
+        li {
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .faq-item {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #fafafa;
+            border-radius: 6px;
+            border-left: 3px solid #2f80ed;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        .faq-answer {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 6px;
+        }
+        .contact-info p {
+            margin: 8px 0;
+            font-size: 14px;
+            color: #333;
+        }
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: right;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>蜜夜播放器技术支持说明</h1>
+        
+        <p class="intro">
+            欢迎使用蜜夜播放器！为保障您的使用体验，我们提供以下技术支持服务。<br>
+            本说明旨在解答常见问题、明确支持范围及联系方式，帮助您快速解决使用中遇到的技术问题。<br>
+            如您的问题未在此处覆盖，可通过文末联系方式与我们联系。
+        </p>
 
+
+        <h2>一、常见问题与支持范围</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">1. 播放器无法加载/卡顿怎么办？</div>
+            <div class="faq-answer">
+                - 检查网络连接：确保设备已连接稳定Wi-Fi或移动数据（建议切换网络环境尝试）；<br>
+                - 清理缓存：进入「设置-应用管理-蜜夜播放器-存储」，清理缓存数据（不会删除账号或播放记录）；<br>
+                - 更新版本：前往应用商店检查是否为最新版本，旧版本可能存在兼容性问题；<br>
+                - 若仍无法解决，可通过技术支持渠道反馈具体场景（如“播放某视频时卡顿”“启动后白屏”）。
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">2. 订阅/购买后权益未生效？</div>
+            <div class="faq-answer">
+                - 苹果用户：订阅由Apple ID管理，需检查「设置-Apple ID-订阅」中蜜夜播放器的订阅状态（是否显示“有效”）；<br>
+                - 延迟到账：部分情况下权益生效可能有5-10分钟延迟，请耐心等待后重启应用；<br>
+                - 若超过30分钟仍未生效，请提供Apple订阅凭证截图（含订单号、订阅时间），我们将协助核查。
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">3. 如何取消自动续费？</div>
+            <div class="faq-answer">
+                - 苹果用户：打开「App Store-右上角头像-订阅」，找到“蜜夜播放器”并点击「取消订阅」（取消后当前周期结束前仍可正常使用）；<br>
+                - 取消后可在订阅列表中查看“到期时间”，到期后不再自动扣费。<br>
+                <span class="highlight">注：开发者无法直接处理退款或取消操作，需通过Apple官方渠道设置。</span>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">4. 广告过多或误点广告怎么办？</div>
+            <div class="faq-answer">
+                - 广告为第三方SDK提供（如穿山甲、优量汇等），我们无法手动关闭单个广告；<br>
+                - 可通过系统设置限制广告跟踪：iOS用户进入「设置-隐私-广告」，开启「限制广告跟踪」；安卓用户进入「设置-Google-Ads-重置广告ID」。<br>
+                - 若广告内容违规，可提供广告截图及链接，我们将反馈给第三方优化。
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">5. 账号登录异常/忘记密码？</div>
+            <div class="faq-answer">
+                - 若为手机号登录，可通过「登录页面-忘记密码」接收验证码重置；<br>
+                - 若账号被盗或无法找回，请提供注册手机号/设备信息，我们将协助核查（需验证身份）。
+            </div>
+        </div>
+
+
+        <h2>二、技术支持范围说明</h2>
+        <p>我们提供以下技术支持服务：</p>
+        <ul>
+            <li>应用功能使用指导（如播放、订阅、设置等操作问题）；</li>
+            <li>账号与订阅相关问题排查（如登录、权益生效、自动续费）；</li>
+            <li>常见故障解决（如卡顿、加载失败、广告异常）；</li>
+            <li>隐私与安全相关咨询（如信息收集、权限设置）。</li>
+        </ul>
+        <p>以下情况暂不在支持范围内：</p>
+        <ul>
+            <li>非官方渠道下载的安装包导致的兼容性问题；</li>
+            <li>设备硬件故障（如屏幕损坏、电池问题）或系统版本过低（如iOS < 12.0、安卓 < 8.0）；</li>
+            <li>第三方内容问题（如视频源失效、广告内容违规，需联系对应版权方或广告商）；</li>
+            <li>因用户误操作导致的数据丢失（如主动删除播放记录、卸载应用）。</li>
+        </ul>
+
+
+        <h2>三、技术支持联系方式</h2>
+        <div class="contact-info">
+            <p>📧 邮箱反馈：liu781855377@live.com（推荐，响应时间1-3个工作日）</p>
+            <p>⏰ 服务时间：工作日9:00-18:00（非工作时间反馈将在次日处理）</p>
+        </div>
+        <p class="intro" style="margin-top: 20px;">
+            反馈时请尽量提供以下信息，以便快速定位问题：<br>
+            ① 设备型号（如iPhone 14、小米13）+ 系统版本（如iOS 16.5、安卓14）；<br>
+            ② 应用版本号（「我的-设置-关于我们」中查看）；<br>
+            ③ 问题发生的具体场景（如“播放1080P视频时卡顿”“订阅后无法解锁会员专区”）；<br>
+            ④ 相关截图/录屏（如错误提示、订阅状态页）。
+        </p>
+
+
+        <h2>四、其他说明</h2>
+        <ul>
+            <li>技术支持不收取任何费用，请勿轻信第三方“付费修复”诈骗信息；</li>
+            <li>我们会定期整理高频问题并更新本说明，建议使用时关注最新版本；</li>
+            <li>本说明最终解释权归开发者刘国权所有，如有调整将提前通过应用内公告通知。</li>
+        </ul>
+
+
+        <div class="footer">开发者：刘国权</div>
+    </div>
+</body>
+</html>
